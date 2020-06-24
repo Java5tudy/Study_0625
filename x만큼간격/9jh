@@ -1,9 +1,17 @@
 class Solution {
+
     public long[] solution(long x, int n) {
-        long[] answer = new long[n];
-        for (int i=0; i<n; i++){
-            answer[i] = (i+1) * x;
+
+        long[] answer = new long[n]; // n길이 만큼의 배열 생성
+        
+        for (int i=0; i<n; i++){ // n미만까지 반복 (i++)
+        
+            answer[i] += (i+1) * x; // 출력값 간의 규칙 x ~ x*n까지, x간격의 수 누적한 배열 반환
+        
         }
+        
         return answer;
+    
     }
+
 }
