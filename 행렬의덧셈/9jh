@@ -1,11 +1,21 @@
 class Solution {
-  public int[][] solution(int[][] arr1, int[][] arr2) {
-		int[][] arr = new int[arr1.length][arr1[0].length];
-		for(int i=0; i<arr1.length; i++) {
+
+	public int[][] solution(int[][] arr1, int[][] arr2) {
+	
+		int[][] arr = new int[arr1.length][arr1[0].length]; // 새로 들어갈 빈배열 
+		
+		for(int i=0; i<arr1.length; i++) { // 행과 열만큼 돌면서
+		
 			for(int j=0; j<arr1[0].length; j++) {
-				arr[i][j] = arr1[i][j] + arr2[i][j];
+				
+				arr[i][j] = arr1[i][j] + arr2[i][j]; //덧셈
+			
 			}
+		
 		}
+		
 		return arr;
+	
 	}
+
 }
