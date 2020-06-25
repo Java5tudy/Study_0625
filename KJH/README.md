@@ -9,4 +9,4 @@
 4. 제일 작은 수 제거
 - [링크]()
 5. 자연수 뒤집어 배열로 만들기
--[링크](https://github.com/KimJinHye0n/java_/blob/master/Programmers/Level1/%EC%9E%90%EC%97%B0%EC%88%98%20%EB%92%A4%EC%A7%91%EC%96%B4%20%EB%B0%B0%EC%97%B4%EB%A1%9C%20%EB%A7%8C%EB%93%A4%EA%B8%B0/Solution.java)
+- [링크](https://github.com/KimJinHye0n/java_/blob/master/Programmers/Level1/%EC%9E%90%EC%97%B0%EC%88%98%20%EB%92%A4%EC%A7%91%EC%96%B4%20%EB%B0%B0%EC%97%B4%EB%A1%9C%20%EB%A7%8C%EB%93%A4%EA%B8%B0/Solution.java)
